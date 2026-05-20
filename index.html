@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Random Advice Generator</title>
+  <!-- Link to external CSS (to be provided next) -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Font for a clean look (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="advice-card">
+      <h1>✨ Random Advice ✨</h1>
+      <div class="advice-content">
+        <p id="advice-text" class="advice-text">Click the button to get advice...</p>
+        <div class="loading" id="loading" style="display: none;">⏳ Loading...</div>
+      </div>
+      <button id="get-advice-btn" class="advice-btn">Get Advice</button>
+    </div>
+    <footer>
+      <p>Powered by <a href="https://api.adviceslip.com/" target="_blank" rel="noopener noreferrer">Advice Slip API</a></p>
+    </footer>
+  </div>
+
+  <!-- Link to external JavaScript (to be provided next) -->
+  <script src="script.js" defer></script>
+</body>
+</html>
